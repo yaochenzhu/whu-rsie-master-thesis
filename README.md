@@ -1,4 +1,4 @@
-# 武汉大学遥感信息工程学院硕士研究生毕业论文 LaTeX 模板
+# 武汉大学遥感院硕士研究生毕业论文 LaTeX 模板
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Last Commit](https://img.shields.io/github/last-commit/whutug/whu-thesis.svg)](https://github.com/whutug/whu-thesis/commits/)
@@ -13,7 +13,7 @@
 ## 样例展示
 
 <p align="center">
-  <img src="" width="800px">
+  <img src="https://github.com/yaochenzhu/whu-rsie-master-thesis/blob/main/figures/demo.png" width="800px">
 </p>
 
 本项目LaTeX模板编译得到的正文样例可以参照 [whu-thesis-demo](whu-thesis-demo.pdf)
@@ -41,7 +41,7 @@
 使用该模板时，需要设置 `XeLaTeX`为编译器，具体步骤请查看 [Overleaf 在线编辑](https://github.com/mtobeiyf/whu-thesis/wiki/Overleaf-%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/5097752/55882483-319d4f00-5bd7-11e9-86ff-687106144e16.png" width="800px">
+  <img src="https://github.com/yaochenzhu/whu-rsie-master-thesis/blob/main/figures/demo_overleaf.png" width="800px">
 </p>
 
 ## 注意事项
