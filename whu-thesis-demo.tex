@@ -1,0 +1,80 @@
+%% An Introduction to LaTeX Thesis Template of Wuhan University
+%%
+%% Created by WHUTUG
+
+%\documentclass[oneside,type=master]{whu-thesis}
+\documentclass[type=master]{whu-thesis}
+%%% 去掉空白页，在打印时删除 %%%
+\renewcommand{\cleardoublepage}{\clearpage}
+%%% 去掉空白页，在打印时删除 %%%
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{amsfonts}
+\usepackage{ulem}
+\usepackage{zhnumber}
+\usepackage{pdfpages}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}} 
+\renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
+
+
+\renewcommand{\thetable}{\arabic{chapter}-\arabic{table}}
+\renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
+
+\whusetup
+  {
+    info               =
+      {
+        title          = {论\ \ 文\ \ 题\ \ 目},
+        title*         = {Research on ××××××××××××},
+        student-number = {2010201020009},
+        school         = {院系名称},
+        author         = {张三},
+        author*        = {Zhang San},
+        major          = {摄影测量与遥感},
+        advisor        = {李某 , 副教授},
+        advisor*       = {Prof. , Li Mou},
+        direction      = {计算机视觉},        
+        subject        = {学科},
+        date           = {2022/5},
+        date*          = {May, 2022},
+        school*        = {School of Remote Sensing and Information Engineering},
+        keywords       = {计量学, 时基误差, 宽带取样示波器},
+        keywords*      = {metrolog, time base error, broadband sampling oscilloscope},
+      },
+    style              =
+      {
+        graphics-path  = {{figures/}{data/}},
+        bib-style      = numerical
+        % list-of-figures,
+        % list-of-tables,
+      },
+    element            =
+      {
+        abstract       = {pages/abstract},
+        abstract*      = {pages/enabstract},
+        bibliography   = {ref/refs , ref/thu},
+        achievements   = {pages/achievements},
+        projects       = {pages/projects},
+        authorization  = {pages/authorization_blind.pdf},
+        %appendix       = {pages/appendix},
+        thanks         = {pages/thanks},
+        %innovation     = {pages/innovation.pdf},
+      }
+  }
+
+\begin{document}
+  
+%%----------- 主体部分 ----------- %%
+%在生成摘要后，重新将chapter定义为2号字
+\include{pages/chapter1}
+% \include{pages/chapter2}
+% \include{pages/chapter3}
+% \include{pages/chapter4}
+% \include{pages/chapter5}
+
+\nocite{*} %显示所有文献，请注释！！！
+\end{document}
