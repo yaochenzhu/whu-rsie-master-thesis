@@ -649,7 +649,8 @@
 \cs_new_protected:Npn \__whu_set_math_font_xits:
   {
     \setmathfont { XITSMath-Regular.otf }
-      [ BoldFont = XITSMath-Bold.otf ]
+    [ BoldFont = XITSMath-Bold.otf ]
+    \setmathfont{ XITSMath-Regular.otf }[range={cal,bfcal},StylisticSet=01]
   }
 
 \cs_new_protected:Npn \__whu_set_math_font_termes:
