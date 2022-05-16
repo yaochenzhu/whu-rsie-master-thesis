@@ -54,7 +54,7 @@
 
 * **字体不一致的问题**： 本LaTeX模板在使用overleaf进行编译时，所有的中文字体均使用fandol字体。这与windows自带的中文字体存在不同。因此，在正式提交论文电子版前，请将模板下载到windows主机进行本地编译。如果编译后中文字体仍为fandol字体，请手动将cls文件中688行cjk-font  .initial:n = fandol语句改为cjk-font  .initial:n = windows，再按照xelatex -> bibtex -> xelatex -> xelatex的顺序进行编译即可。
 
-* **纸质版空白页生成的问题**： 在论文定稿准备提交纸质版打印前，请将whu-thesis-demo.tex文件中\renewcommand{\cleardoublepage}{\clearpage}语句注释，以按格式要求正确生成空白页；
+* **纸质版空白页生成的问题**： 在论文定稿准备提交纸质版打印前，请将whu-thesis-demo.tex文件中\renewcommand{\cleardoublepage}{\clearpage}语句注释，以按格式要求正确生成空白页，并去掉\usepackage{emptypage}注释，以按照要求删除空白页页码；
 
 * **未来展望**： 如果以后学院出了新的模板，authorization，innovation等不出现在论文目录中的页面发生了变化，你永远可以从模板摘出对应页，填好之后保存成pdf，再在模板对应位置通过\includepdf[]命令将其加入论文（手动狗头）。
 
