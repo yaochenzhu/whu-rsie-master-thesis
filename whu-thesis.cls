@@ -752,7 +752,7 @@
 \cs_new_protected:Npn \__whu_new_chapter_page:
   {
     \bool_if:NTF \g__whu_option_twoside_bool
-      { \clearpage }
+      { \cleardoublepage }
       { \clearpage }
   }
 
