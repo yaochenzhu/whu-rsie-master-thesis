@@ -565,9 +565,9 @@
 \cs_new_protected:Npn \__whu_set_cjk_font_windows:
   {
     \__whu_set_cjk_font_song:nn { SimSun }
-      { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
+      { AutoFakeBold = 2.75 , AutoFakeSlant = 0.167 }
     \__whu_set_cjk_font_hei:nn { SimHei }
-      { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
+      { AutoFakeBold = 3.0 , AutoFakeSlant = 0.167 }
     \__whu_set_cjk_font_fang:nn { FangSong }
       { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
     \__whu_set_cjk_font_kai:nn { KaiTi }
@@ -633,13 +633,13 @@
 % overleaf 调用目录字体需要使用文件名
 \cs_new_protected:Npn \__whu_set_cjk_font_overleaf:
   {
-    \__whu_set_cjk_font_song:nn { simsun.ttc }
+    \__whu_set_cjk_font_song:nn { SimSun }
+      { AutoFakeBold = 2.75 , AutoFakeSlant = 0.167 }
+    \__whu_set_cjk_font_hei:nn { SimHei }
+      { AutoFakeBold = 3.0 , AutoFakeSlant = 0.167 }
+    \__whu_set_cjk_font_fang:nn { FangSong }
       { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
-    \__whu_set_cjk_font_hei:nn { simhei.ttf }
-      { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
-    \__whu_set_cjk_font_fang:nn { simfang.ttf }
-      { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
-    \__whu_set_cjk_font_kai:nn { simkai.ttf }
+    \__whu_set_cjk_font_kai:nn { KaiTi }
       { AutoFakeBold = 3.2 , AutoFakeSlant = 0.167 }
   }
 
