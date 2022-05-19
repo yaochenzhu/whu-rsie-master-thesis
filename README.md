@@ -1,7 +1,7 @@
 # 武汉大学遥感院硕士研究生毕业论文 LaTeX 模板
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Commit](https://img.shields.io/github/last-commit/whutug/whu-thesis.svg)](https://github.com/whutug/whu-thesis/commits/)
+[![Last Commit](https://img.shields.io/github/last-commit/whutug/whu-thesis.svg)](https://github.com/yaochenzhu/whu-rsie-master-thesis/commits/)
 [![Overleaf](https://img.shields.io/badge/overleaf-whuthesis-green.svg)](https://www.overleaf.com/latex/templates/wuhan-university-latex-undergraduate-thesis-template/kpystysgbgmr)
 [![](https://github.com/whutug/whu-thesis/workflows/LaTeX%20Compile/badge.svg)](https://github.com/whutug/whu-thesis/actions)
 
