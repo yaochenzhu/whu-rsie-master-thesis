@@ -56,7 +56,7 @@
 
 * **纸质版空白页生成的问题**： 在论文定稿准备提交纸质版打印前，请将whu-thesis-demo.tex文件中\renewcommand{\cleardoublepage}{\clearpage}语句注释，以按格式要求正确生成空白页，并去掉\usepackage{emptypage}注释，以按照要求删除空白页页码；
 
-* **未来展望**： 如果以后学院出了新的模板，authorization，innovation等不出现在论文目录中的页面发生了变化，你永远可以从模板摘出对应页，填好之后保存成pdf，再在模板对应位置通过\includepdf[]命令将其加入论文（手动狗头）。
+* **未来展望**： 如果以后学院出了新的模板，authorization，innovation等不出现在论文目录中的页面发生了变化，请从模板摘出对应页，填好之后保存成pdf，再在模板对应位置通过\includepdf[]命令将其加入论文（手动狗头）。
 
 </details>
 
