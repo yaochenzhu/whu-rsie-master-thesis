@@ -339,8 +339,8 @@
 \tl_set:Nn \listfigurename { 图片索引     }
 \tl_set:Nn \listtablename  { 表格索引     }
 
-\tl_set:Nn \cftdot { { \normalfont . } }
-\tl_set:Nn \cftdotsep { \c_one_int }
+\tl_set:Nn \cftdot { { . } }
+\tl_set:Nn \cftdotsep { 0.5 }
 % 点间距
 
 \clist_map_inline:nn { sec , subsec , subsubsec }
@@ -1369,6 +1369,8 @@
   {
     \setlength{\cftbeforetoctitleskip}{-1.5em}
     \__whu_new_chapter_page:
+    \renewcommand{\cftchappagefont}{\bfseries\zihao{5}}% page numbers in bold
+    \renewcommand{\cftchapleader}{\bfseries\cftdotfill{\cftsecdotsep}}% dot leaders in bold    
     \begin{spacing}{1.6}
     \tableofcontents
     \end{spacing}
