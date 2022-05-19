@@ -1367,6 +1367,7 @@
 %%% ---- 目录 ----- %%%
 \cs_new_protected:Npn \__whu_make_contents:
   {
+    \setlength{\cftbeforetoctitleskip}{-1.5em}
     \__whu_new_chapter_page:
     \begin{spacing}{1.6}
     \tableofcontents
@@ -1411,7 +1412,7 @@
         format     = { \centering \bfseries \heiti \zihao { -2 } },
         number     = {  \zhnumber { \arabic{chapter} }          },
         name       = { 第,章                         },
-        beforeskip = { -0.5cm       },
+        beforeskip = { -0.7cm       },
         afterskip  = { 0.7 \c__whu_baseline_skip       },
       }  % 各章标题 黑体小 2 号
   }
